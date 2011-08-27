@@ -1,0 +1,55 @@
+=== Outerbridge Password Generator ===
+Contributors: Mike Jones (outerbridge)
+Author URI: http://outerbridge.co.uk/author/mike/
+Tags: password generator, special charaters, strong password
+Requires at least: 3.2
+Tested up to: 3.2.1
+Stable tag: trunk
+
+Password Generator is a plugin which adds a widget to Wordpress which generates various length random passwords (with or without special characters).
+
+
+== Description ==
+
+Password Generator is a plugin written by Outerbridge which adds a widget to Wordpress which generates various length random passwords (with or without special characters).
+
+
+== Installation ==
+
+1. Install automatically through the 'Plugins', 'Add New' menu in WordPress, or upload the 'outerbridge-password-generator' folder to the '/wp-content/plugins/' directory. 
+
+2. Activate the plugin through the 'Plugins' menu in WordPress. If your theme supports widgets then the password generator widget will be available in the 'Widgets' section of the 
+
+3. Test the widget by creating a new password using the options available in the dropdown boxes.
+
+4. Updates are automatic. Click on "Upgrade Automatically" if prompted from the admin menu. If you ever have to manually upgrade, simply deactivate, uninstall, and repeat the installation steps with the new version.
+
+
+== Screenshots ==
+
+1. screenshot1.png shows the Widget on a WordPress site before a password is generated.
+
+2. screenshot2.png shows the Widget after a password has been generated.
+
+
+== Frequently Asked Questions ==
+
+= Where do I get help with this plugin? =
+
+Email us and we'll do our best to help you out.
+
+= I have an idea as to a new feature.  Are you interested? =
+
+You bet!  We'd love to hear from you, so please get in touch.
+
+
+== Changelog ==
+
+= 0.1 =
+- (27 Aug 2011) Initial Release
+
+
+== Upgrade Notice ==
+
+= 0.1 =
+- This is the initial release.
