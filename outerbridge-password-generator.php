@@ -10,8 +10,6 @@ Tags: password generator, special characters, strong password
 License: GPL v2
 */
 
-// new obr_password_generator;
-
 class obr_password_generator extends WP_Widget{
 	// version
 	public $obr_password_generator = '0.1';
@@ -142,9 +140,5 @@ function obr_password_generator_init(){
 	register_widget('obr_password_generator');
 }
 add_action('widgets_init', 'obr_password_generator_init');
-
-//register_activation_hook(__FILE__, 'obr_install'));
-//register_sidebar_widget('Outerbridge Password Generator', 'obr_pass_gen'));
-//add_action('wp_head', 'obr_header'));
 
 ?>
