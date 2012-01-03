@@ -3,7 +3,7 @@ Contributors: Mike Jones (outerbridge)
 Author URI: http://outerbridge.co.uk/author/mike/
 Tags: password generator, special charaters, strong password
 Requires at least: 3.2
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: trunk
 
 Password Generator is a plugin which adds a widget to Wordpress which generates various length random passwords (with or without special characters).
@@ -45,11 +45,17 @@ You bet!  We'd love to hear from you, so please get in touch.
 
 == Changelog ==
 
+= 1.0 =
+- (03 Jan 2012) Tested and stable up to WP3.3
+
 = 0.1 =
 - (27 Aug 2011) Initial Release
 
 
 == Upgrade Notice ==
+
+= 1.0 =
+- Tested and stable up to WP3.3
 
 = 0.1 =
 - This is the initial release.
