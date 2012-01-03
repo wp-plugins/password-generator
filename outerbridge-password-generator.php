@@ -13,7 +13,7 @@ License: GPL v2
 /**
  *
  * v1.0 120103 stable up to WP3.3
- *
+ * 
  * v0.1 110827 initial release
  *
  */
