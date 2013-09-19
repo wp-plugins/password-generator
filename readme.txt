@@ -1,7 +1,7 @@
 === Outerbridge Password Generator ===
-Contributors: Mike Jones (outerbridge)
-Author URI: http://outerbridge.co.uk/author/mike/
-Tags: password generator, special charaters, strong password
+Contributors: outerbridge
+Author URI: http://outerbridge.co.uk/
+Tags: password generator, special characters, strong password
 Requires at least: 3.2
 Tested up to: 3.6
 Stable tag: trunk
