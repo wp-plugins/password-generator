@@ -3,7 +3,7 @@
 Plugin Name: Outerbridge Password Generator 
 Plugin URI: http://outerbridge.co.uk/ 
 Description: Password Generator is a plugin written by Outerbridge which adds a widget to Wordpress which generates various length random passwords (with or without special characters).
-Author: Outerbridge Mike
+Author: Outerbridge
 Version: 1.1
 Author URI: http://outerbridge.co.uk/
 Tags: password generator, special characters, strong password
