@@ -2,7 +2,7 @@
 Contributors: outerbridge
 Author URI: http://outerbridge.co.uk/
 Tags: password generator, special characters, strong password
-Requires at least: 3.9
+Requires at least: 4.0
 Tested up to: 3.9
 Stable tag: trunk
 
@@ -45,6 +45,9 @@ You bet!  We'd love to hear from you, so please get in touch.
 
 == Changelog ==
 
+= 1.3 =
+- (29 Aug 2014) Tested and stable up to WP4.0
+
 = 1.2 =
 - (30 Apr 2014) Tested and stable up to WP3.9
 
@@ -59,6 +62,9 @@ You bet!  We'd love to hear from you, so please get in touch.
 
 
 == Upgrade Notice ==
+
+= 1.3 =
+- Tested and stable up to WP4.0
 
 = 1.2 =
 - Tested and stable up to WP3.9
