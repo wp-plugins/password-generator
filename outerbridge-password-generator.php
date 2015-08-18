@@ -4,16 +4,17 @@ Plugin Name: Outerbridge Password Generator
 Plugin URI: http://outerbridge.co.uk/ 
 Description: Password Generator is a plugin written by Outerbridge which adds a widget to Wordpress which generates various length random passwords (with or without special characters).
 Author: Outerbridge
-Version: 1.3
-Author URI: http://outerbridge.co.uk/
+Version: 1.4
+Author URI: https://outerbridge.co.uk/
 Tags: password generator, special characters, strong password
 License: GPL v2
 */
 
 /**
  *
- * v1.3 140829 Tested and stable up to WP4.0
+ * v1.4 150818 Updated WP_Widget functionality for WP4.3
  *
+ * v1.3 140829 Tested and stable up to WP4.0
  * v1.2 140430 Tested and stable up to WP3.9
  * v1.1 131212 Tested and stable up to WP3.8 and updated author name
  * v1.0 120103 stable up to WP3.3
@@ -29,8 +30,8 @@ class obr_password_generator extends WP_Widget{
 	function obr_password_generator(){
 		$widget_ops = array('classname' => 'oouterbridge_pass_gen_widget', 'description' => __("Create strong passwords quickly and easily using this widget.  Various password lengths available as well as the option to use symbols as well as alphanumerics."));
 		$control_ops = array('width' => 300, 'height' => 300);
-		$this->WP_Widget('obr_pass_gen', __('Outerbridge Password Generator'), $widget_ops, $control_ops);
-		add_action('wp_head', array(&$this, 'obr_header'));
+		parent::__construct('obr_pass_gen', __('Outerbridge Password Generator'), $widget_ops, $control_ops);
+		add_action('wp_head', array($this, 'obr_header'));
 	}
 	
 	// functions
